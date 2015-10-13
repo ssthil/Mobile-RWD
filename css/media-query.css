@@ -1,0 +1,13 @@
+@media only screen and (max-width:1024px){
+	/*body{
+		background: #222628;
+	}*/
+	.content {
+		display: none;
+	}
+	.icon-set{
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+}

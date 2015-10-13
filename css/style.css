@@ -1,0 +1,113 @@
+body {
+background-image: url('../img/bg.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size:cover; 
+}
+html {
+	position: relative;
+	min-height: 100%;
+}
+#section{
+	text-align:center;
+}
+.prd-bg{
+	/*background: #2B2E30;*/
+	background: #fff;
+	margin: 5px 0;
+	padding: 5px;
+	color: #747679;
+	cursor: pointer;
+	transition:all 1s ease;
+	overflow: hidden;
+}
+.prd-bg i{
+	color: #5F5E5E;
+	transition:all 1s ease;
+}
+.prd-bg h5{
+	font-weight: normal;
+	transition:all 1s ease;
+}
+.content > p{
+transition:color 1s ease;
+	}
+.prd-bg:hover > .icon-set > p > i, .prd-bg:hover > .icon-set > h5, .prd-bg:hover > .content > p{
+	color:#e56;
+}
+.prd-bg:hover{
+	background: #000;
+}
+#footer{
+	background: #000;
+}
+.navbar-footer{
+	background: #000;
+	opacity: 0.5;
+}
+.icon-set,.content{
+	float: left;
+}
+.icon-set {
+width: 25%;
+padding: 15px 0px 0 15px;
+}
+.content {
+width: 72%;
+text-align: left;
+padding-left: 20px;
+}
+/**** custom theme ****/
+.navbar {
+border-radius: 0;
+}
+.navbar-default {
+background-color: #e56;
+border-color: #F55B78;
+}
+.navbar-default .navbar-brand {
+color: #2D2B2C;
+text-transform: uppercase;
+}
+.navbar-default .navbar-brand:hover {
+color: #CF335D;
+}
+.navbar-default .navbar-nav>li>a {
+color: #8C2645;
+}
+.navbar-default .navbar-toggle {
+ border: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #B50E2E;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+color: #FFC5CC;
+background-color: #DD3F57;
+}
+
+.footer-li > .nav{
+	width:100%;
+}
+.footer-li li{
+	display: inline-block;
+	float: left;
+	padding: 0 15px;
+}
+.footer-li li:last-child{
+	float: right;
+}
+.footer-li li i.fa {
+font-size: 20px;
+color: #e56;
+}
+.footer-li > .nav>li>a:focus, .footer-li > .nav>li>a:hover {
+text-decoration: none;
+background-color: #282828;
+}
